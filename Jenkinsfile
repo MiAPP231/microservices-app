@@ -1,4 +1,3 @@
-cat > Jenkinsfile << 'EOF'
 pipeline {
     agent any
 
@@ -10,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/ВАШ_USER/microservices-app.git'
+                git branch: 'main', url: 'https://github.com/MiAPP231/microservices-app.git'
             }
         }
 
@@ -126,4 +125,3 @@ pipeline {
         }
     }
 }
-EOF
