@@ -1,1 +1,1 @@
-flask==2.3.0
+echo "flask==2.3.0" > user-service/requirements.txt
